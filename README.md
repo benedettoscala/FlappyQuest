@@ -10,3 +10,9 @@ FlappyQuest allows you to have a 3D miniature replica of the Flappy Bird video g
 
 ## Disclaimer
 The app is still a prototype in the embryonic stage and is essentially a project I am developing to become familiar with the Meta XR All-In-One SDK, dedicated to virtual and mixed reality.
+
+## What I plan to do
+- Implement a GUI
+- Implement a score system
+- Give the player the ability to resize the world
+- Implement hand tracking controllers
