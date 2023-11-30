@@ -261,6 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0ec2a19046a15c4490666501f62b555, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  X: {fileID: 2502015509066057692, guid: 8bd42ed5382fc6f4595d1bfe5c7d8cf3, type: 3}
   _saveableAnchorPrefab: {fileID: 4599418096593839677, guid: 6c01b27bc516072449311651b3e3b286, type: 3}
   _saveablePreview: {fileID: 190111}
   _saveableTransform: {fileID: 190112}
