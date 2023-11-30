@@ -32,21 +32,22 @@ public class PositionWorld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(_saveableTransform.rotation);
+        Quaternion rotation1 = Quaternion.Euler(0, _saveableTransform.rotation.y, 0);
+        Debug.Log(rotation1);
         if(OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
         {
-            if(!WorldCreated)
+            if(true)
             {
                 //hide X
                 
                 WorldCreated = true;
                 //fammi un quaternion in cui prendi la rotazione sull'asse delle y di _saveableTransform
-                Quaternion rotation = Quaternion.Euler(0, _saveableTransform.rotation.y, 0);
+                Quaternion rotation = Quaternion.Euler(0, _saveableTransform.rotation.eulerAngles.y, 0);
                 var anchor = Instantiate(_saveableAnchorPrefab, _saveableTransform.position, rotation);
                 _workingAnchor = anchor.GetComponent<OVRSpatialAnchor>();
 
-                CreateAnchor(_workingAnchor, true);
-                X.SetActive(false);
+                //CreateAnchor(_workingAnchor, true);
+                //X.SetActive(false);
             }         
         }
     }
