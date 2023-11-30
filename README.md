@@ -16,3 +16,4 @@ The app is still a prototype in the embryonic stage and is essentially a project
 - Implement a score system
 - Give the player the ability to resize the world
 - Implement hand tracking controllers
+- Fix the normals of the 3D models
