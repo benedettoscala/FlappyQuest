@@ -14,7 +14,7 @@ public class LevelSpawner : MonoBehaviour
     {
         GameObject Spawned = Instantiate(TemplateEmpty, SpawnTo.transform.position, transform.rotation);
         Spawned.transform.parent = transform;
-        float spostamentoXLocale = 29f;
+        float spostamentoXLocale = 25f;
         SpawnTo.transform.Translate(spostamentoXLocale, 0f, 0f, Space.Self);
         GameObject Spawned1 = Instantiate(TemplateEmpty, SpawnTo.transform.position, transform.rotation);
         Spawned1.transform.parent = transform;
@@ -40,6 +40,7 @@ public class LevelSpawner : MonoBehaviour
             GameObject spawned = Instantiate(Template, SpawnTo.transform.position, transform.rotation);
             spawned.transform.parent = transform;
         }
+
     } 
 
     

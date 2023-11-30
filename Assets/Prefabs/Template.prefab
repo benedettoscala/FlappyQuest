@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271522933050659667}
   - component: {fileID: 6910911101332510901}
+  - component: {fileID: 1560042298627862905}
   m_Layer: 0
   m_Name: Template
   m_TagString: Untagged
@@ -57,6 +58,27 @@ MonoBehaviour:
   Tubes: {fileID: 6641687177304400858, guid: ced525a67db79204db4981d9acb7423d, type: 3}
   Spawner1: {fileID: 5395263811425604098}
   Spawner2: {fileID: 4319424028267644579}
+--- !u!65 &1560042298627862905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208848937847041136}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 25.133595, y: 21.795704, z: 32.896114}
+  m_Center: {x: 9.971365, y: 10.397852, z: 6.4441986}
 --- !u!1 &4319424028267644579
 GameObject:
   m_ObjectHideFlags: 0
